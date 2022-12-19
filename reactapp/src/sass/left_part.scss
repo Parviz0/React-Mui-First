@@ -1,0 +1,61 @@
+.left_part{
+    padding-top: 30px;
+    height: 100vh;
+    width: 300px;
+    background-color: black;
+    color: white;
+    .line{
+        width: 225px;
+        margin-top: 10px;
+        height: 0px;
+        margin-left: 50px;
+        border: 1px solid #282828;
+    }
+    .songs{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 40px;
+        margin-top: 10px;
+        .song{
+            cursor: pointer;
+            width: 95%;
+            transition: 800ms;
+            padding-left: 10px;
+            border-radius: 10px;
+        }
+        .song:hover{
+            background-color: #28282867;
+
+        }
+    }
+    .btns{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 40px;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+        button{
+            color: white;
+            background: transparent;
+            border: none;
+            width: 250px;
+            height: 50px;
+            display: flex;
+            gap: 15px;
+            padding-left: 10px;
+            align-items: center;
+            cursor: pointer;
+            transition: 800ms;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: #28282867;
+        }
+    }
+}

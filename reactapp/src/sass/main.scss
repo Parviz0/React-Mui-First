@@ -1,0 +1,116 @@
+main{
+    width: 81.22%;
+    height: 100vh;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    .Section{
+        height: 400px;
+     width: 900px;
+        margin-left: 20px;
+        color: white;
+        .blocks{
+            height: 361px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .song_block_sec{
+            background: #ffffff13;
+            // opacity: 0.1;
+            border-radius: 6px;
+            height: 81px;
+            width: 400px;
+            display: flex;
+            h3{
+                margin: 28px;
+            }
+            .play_btn{
+                width: 25px;
+                height: 25px;
+                margin-top: 28px;
+                margin-left: 140px;
+                transition: 800ms;
+                opacity: 0;
+            }
+            .play_btn:hover{
+                cursor: pointer;
+                opacity: 1; 
+            }
+        }
+    }
+
+    .header{
+        height: 100px;
+        width: 75%;
+        .profile{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            width: 15%;
+            height: 40px;
+            color: white;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 40px;
+            margin-left: 800px;
+            margin-top: 25px;
+                .prof_div{
+                    position: relative;
+                    right: 15px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 10px;
+                    width: 15%;
+                    height: 40px;
+                    border-radius: 40px;
+                }
+        }
+    }
+    .modal_Bg{
+        color: white;
+        width: 200px;
+        background-color: blue;
+        height: 250px;
+        z-index: 2;
+        position: absolute;
+        margin-top: 80px;
+        left: 750px;
+        display: flex;
+        flex-direction: column;
+        background-color: #282828;
+        border-radius: 9px;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        span{
+            cursor: default;
+            width: 120px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            padding-left: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 800ms;
+
+        }
+        span:hover{
+            background-color: #00000015;
+        }
+        .line{
+            height: 0.5px;
+            background-color: grey;
+            width: 95%;
+            margin-left: 5px;
+            position: relative;
+            right: 10px;
+        }
+    }
+}
